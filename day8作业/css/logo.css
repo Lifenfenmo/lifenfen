@@ -1,0 +1,17 @@
+span {
+  font-size: 100px;
+}
+.zimu1,
+.zimu4 {
+  color: blue;
+}
+.zimu2,
+.zimu6 {
+  color: red;
+}
+.zimu3 {
+  color: orange;
+}
+.zimu5 {
+  color: green;
+}
