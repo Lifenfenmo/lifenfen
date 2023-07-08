@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div p {
+            color:red;
+        }
+        #father {
+            color: red;
+        }
+        p.c2 {
+            color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="father" class="c1">
+      <p class="c2">试问这行字体是什么颜色的?</p>
+    </div>
+    <!-- 因为行内样式大于继承,所以字体的颜色是蓝色 -->
+  </body>
+</html>

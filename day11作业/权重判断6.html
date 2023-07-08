@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .c1.c2 div {
+            color: blue;
+        }
+        div #box3 {
+            color:green;
+        }
+        #box1 div {
+            color: yellow;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="box1" class="c1">
+      <div id="box2" class="c2">
+        <div id="box3" class="c3">文字</div>
+      </div>
+    </div>
+    <!-- 因为.c1 .c2 div的权重是0-2-1;
+    而div #box3 的权重是1-0-1;
+#box1 div 的权重是1-0-1  因为两个的权重一样,所以最后写的将会覆盖之前的属性值从而生效,所以文字的颜色是黄色 -->
+  </body>
+</html>

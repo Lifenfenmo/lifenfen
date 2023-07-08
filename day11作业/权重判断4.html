@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div div {
+        color: blue;
+      }
+      div {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div>试问这行字体是什么颜色的?</div>
+      </div>
+    </div>
+    <!-- 因为div div的权重是0-0-2而div的权重是0-0-1,所以这行字体的颜色是蓝色 -->
+  </body>
+</html>

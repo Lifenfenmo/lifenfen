@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #father {
+            color:red;
+        }
+        p{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="father">
+        <p>
+            试问这行字体是什么颜色?
+        </p>
+    </div>
+    <!-- 因为!important>行内>id>类>标签>通配符>继承.
+        因为标签权重大于继承权重,所以字体的颜色是蓝色. -->
+</body>
+</html>
